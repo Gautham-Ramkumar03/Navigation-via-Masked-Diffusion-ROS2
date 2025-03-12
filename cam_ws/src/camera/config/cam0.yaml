@@ -1,0 +1,13 @@
+cam0:
+  ros__parameters:
+    camera_name: "cam0"
+    framerate: 10.0
+    frame_id: "cam0"
+    image_width: 288
+    image_height: 160
+    video_device: "/dev/video2"
+    pixel_format: "mjpeg2rgb"
+    av_device_format: "YUV422P"
+    io_method: "mmap"
+    brightness: 0
+    contrast: 48 

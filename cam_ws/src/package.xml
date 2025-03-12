@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>camera</name>
+  <version>0.0.0</version>
+  <description>ROS2 package for camera integration</description>
+  <maintainer email="name@name.com">Name</maintainer>
+  <license>NoLicense</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>rclcpp</depend>
+  <depend>usb_cam</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

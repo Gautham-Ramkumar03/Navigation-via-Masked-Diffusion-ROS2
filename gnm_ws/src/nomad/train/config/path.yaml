@@ -1,0 +1,5 @@
+datasets:
+  training_data:
+    data_folder: /home/achu503/Downloads/jul19/End_to_End/gnm_ws/src/nomad/preprocessing/training_data/
+    train: /home/achu503/Downloads/jul19/End_to_End/gnm_ws/src/nomad/preprocessing/data_splits/training_data/train/
+    test: /home/achu503/Downloads/jul19/End_to_End/gnm_ws/src/nomad/preprocessing/data_splits/training_data/test/

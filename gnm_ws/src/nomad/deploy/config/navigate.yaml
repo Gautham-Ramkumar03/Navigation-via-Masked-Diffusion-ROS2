@@ -1,0 +1,16 @@
+nomad_navigator:
+  ros__parameters:
+    model_name: "nomad"
+    model_weights_path: "/home/achu503/Downloads/jul19/End_to_End/gnm_ws/src/nomad/deploy/model_weights/nomad.pth"
+    model_config_path: "/home/achu503/Downloads/jul19/End_to_End/gnm_ws/src/nomad/train/config/model.yaml"
+    topomap_images_dir: "/home/achu503/Downloads/jul19/End_to_End/gnm_ws/src/nomad/preprocessing/topomap"
+    topomap_dir: "/home/achu503/Downloads/jul19/End_to_End/gnm_ws/src/nomad/preprocessing/topomap/test 1"
+    waypoint: 2
+    goal_node: -20
+    close_threshold: 3
+    radius: 15
+    num_samples: 8
+    v_max: 0.2
+    w_max: 0.2
+    hz: 4.0
+    graph_hz: 0.33
